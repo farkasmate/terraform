@@ -62,7 +62,7 @@ of the pattern must be escaped as `\\`.
 | `[[:digit:]]`  | The same as `[0-9]`                                                              |
 | `[[:graph:]]`  | All "graphical" (printable) ASCII characters                                     |
 | `[[:lower:]]`  | The same as `[a-z]`                                                              |
-| `[[:print:]]`  | The same as `[[:graph:]]`                                                        |
+| `[[:print:]]`  | `[[:graph:]]` and the space character                                            |
 | `[[:punct:]]`  | The same as `` [!-/:-@[-`{-~] ``                                                 |
 | `[[:space:]]`  | The same as `[\t\n\v\f\r ]`                                                      |
 | `[[:upper:]]`  | The same as `[A-Z]`                                                              |
